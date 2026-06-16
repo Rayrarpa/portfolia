@@ -4,11 +4,10 @@
 }
 
 .card {
-  background-color: #161616;
-  border: 2px solid #e10600;
-  padding: 1.5rem;
-  border-radius: 4px;
-  margin-bottom: 1rem;
+    background-color: #161616;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
 
 .link {

@@ -27,18 +27,18 @@ function Projetos() {
       <h1>Projetos</h1>
 
       <div className='container-altar'>
-      {projetos.map((projeto) => (
-        <div className="card-projeto" key={projeto.titulo}>
-          <img src={projeto.img}></img>
-          <h3>{projeto.titulo}</h3>
-          <p className="cinza">{projeto.descricao}</p>
-          <a href={projeto.url} target='_blank'>Ver Link</a>
-        </div>
-      ))}
+        {projetos.map((projeto) => (
+          <div className="card-projeto" key={projeto.titulo}>
+            <img src={projeto.img}></img>
+            <h3>{projeto.titulo}</h3>
+            <p className="cinza">{projeto.descricao}</p>
+            <a href={projeto.url} target='_blank'>Ver Link</a>
+          </div>
+        ))}
       </div>
 
       <Link to="/" className="btn-vermelho">
-        ← Voltar para a Home
+        Inicio Novamente
       </Link>
     </div>
   );

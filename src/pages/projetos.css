@@ -5,16 +5,15 @@
 }
 
 .card-projeto {
-      background-color: #161616;
-  border: 2px solid #e10600;
-  padding: 1.5rem;
-  width: 20rem;
-  text-align: center;
-  border-radius: 4px;
-  margin-bottom: 1rem;
+    background-color: #161616;
+    padding: 1.5rem;
+    width: 20rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
 
-.container-altar{
+.container-altar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

@@ -2,26 +2,27 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 1.25rem 6rem;
   background-color: #000000;
   border-bottom: 2px solid #e10600;
 }
 
 .navbar-logo {
   font-family: 'Consolas', 'Courier New', monospace;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: #e10600;
 }
-
 
 .navbar-links {
   display: flex;
   gap: 28px;
+  align-items: center;
 }
 
 .nav-link {
   color: #8a8a8a;
   font-weight: 600;
+  font-size: 1.2rem;
   padding-bottom: 6px;
   border-bottom: 2px solid transparent;
   transition: color 0.2s ease, border-color 0.2s ease;
@@ -34,4 +35,8 @@
 .nav-link-ativo {
   color: #e10600;
   border-bottom: 2px solid #e10600;
+}
+
+.iconLink svg:hover {
+  color: red;
 }
