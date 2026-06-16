@@ -1,0 +1,7 @@
+.container-projetos {
+  display: flex;
+  max-width: 56rem;
+  height: 90vh;
+  align-items: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.container-home {
+  display: flex;
+  max-width: 56rem;
+  height: 80vh;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  gap: 8rem;
+}
+
+.info-texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pfp {
+  border: 3px solid white;
+  border-radius: 50rem;
+}
