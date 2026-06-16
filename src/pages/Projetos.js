@@ -5,31 +5,38 @@ import "./projetos.css";
 function Projetos() {
   const projetos = [
     {
-      titulo: 'Lista de Tarefas',
-      descricao: 'Aplicação para organizar tarefas diárias com React e LocalStorage.'
+      titulo: 'Checkpoint',
+      descricao: 'Projeto Checkpoint usando conhecimentos ReactJS',
+      url: 'https://github.com/Rayrarpa/checkpoint'
     },
     {
-      titulo: 'Calculadora',
-      descricao: 'Calculadora simples construída com JavaScript puro.'
+      titulo: 'Deloesia',
+      descricao: 'Projeto usando MongoDB e NodeJS para um portal de postagem de poesias',
+      url: 'https://github.com/Rayrarpa/deloesia'
     },
     {
-      titulo: 'Meu Portfólio',
-      descricao: 'Este próprio site, usando React Router para navegação entre páginas.'
+      titulo: 'Futemon',
+      descricao: 'Jogo 2d pixelart inspirado no estilo de pokemon utilizando times brasileiros',
+      url: 'https://github.com/Rayrarpa/futemon',
+      img: 'Exemplo.png'
     }
   ];
 
   return (
-    <div className="container">
+    <div className="container-projetos">
       <h1>Projetos</h1>
 
+      <div className='container-altar'>
       {projetos.map((projeto) => (
-        <div className="card" key={projeto.titulo}>
+        <div className="card-projeto" key={projeto.titulo}>
+          <img src={projeto.img}></img>
           <h3>{projeto.titulo}</h3>
           <p className="cinza">{projeto.descricao}</p>
+          <a href={projeto.url} target='_blank'>Ver Link</a>
         </div>
       ))}
+      </div>
 
-      {/* Link cria navegação interna (client-side) sem recarregar a página */}
       <Link to="/" className="btn-vermelho">
         ← Voltar para a Home
       </Link>

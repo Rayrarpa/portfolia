@@ -17,9 +17,6 @@ function Home() {
           </Link>
         </div>
       </div>
-
-      {/* Link cria navegação interna (client-side) sem recarregar a página */}
-      
     </div>
   );
 }

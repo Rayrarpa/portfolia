@@ -1,7 +1,21 @@
 .container-projetos {
-  display: flex;
-  max-width: 56rem;
-  height: 90vh;
-  align-items: center;
-  margin: 0 auto;
+    max-width: 56rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-projeto {
+      background-color: #161616;
+  border: 2px solid #e10600;
+  padding: 1.5rem;
+  width: 20rem;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.container-altar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }

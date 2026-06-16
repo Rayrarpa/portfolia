@@ -1,25 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './sobre.css';
 
 function Sobre() {
   return (
     <div className="container">
       <h1>Quem sou eu</h1>
       <p className="cinza">
-        Sou estudante de desenvolvimento web, apaixonado por construir
-        interfaces e aprender frameworks como React. Gosto de transformar
-        ideias simples em aplicações funcionais e organizadas.
+        Um mero estudante da IFRJ
       </p>
 
       <div className="card">
-        <h3>Habilidades</h3>
-        <p className="cinza">HTML, CSS, JavaScript, React, Git</p>
+        <h3>Meu Nome</h3>
+        <p className="cinza">Rafael Delforge Samy Fernandes</p>
+      </div>
+      <div className="card">
+        <h3>Hobbies</h3>
+        <ul>
+          <li className="cinza">Videogames</li>
+          <li className="cinza">Animes</li>
+          <li className="cinza">Biscuit</li>
+          <li className="cinza">Mangás</li>
+          <li className="cinza">Livros</li>
+        </ul>
       </div>
 
-      {/* Link cria navegação interna (client-side) sem recarregar a página */}
-      <Link to="/projetos" className="btn-vermelho">
-        Ver meus projetos →
-      </Link>
+      <div className="card">
+        <h3>Meu Github</h3>
+        <a href='https://github.com/Rayrarpa' target='_blank' className="cinza link">GithubLink</a>
+      </div>
+
+      <div className='ababa'>
+        <Link to="/projetos" className="btn-vermelho projlink">
+          Meus Projetos
+        </Link>
+      </div>
     </div>
   );
 }

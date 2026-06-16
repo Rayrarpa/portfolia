@@ -1,0 +1,29 @@
+.container {
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.card {
+  background-color: #161616;
+  border: 2px solid #e10600;
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.link {
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #f4f4f4;
+}
+
+.projlink {
+    text-align: right;
+    margin-right: 0;
+}
+
+.ababa {
+    text-align: right;
+}

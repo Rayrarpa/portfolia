@@ -10,12 +10,9 @@
 .navbar-logo {
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 1.2rem;
-  color: #f5f5f5;
-}
-
-.navbar-logo-destaque {
   color: #e10600;
 }
+
 
 .navbar-links {
   display: flex;
@@ -34,8 +31,6 @@
   color: #f5f5f5;
 }
 
-/* Estilo aplicado somente quando NavLink detecta isActive = true,
-   ou seja, somente ao link correspondente à página atual */
 .nav-link-ativo {
   color: #e10600;
   border-bottom: 2px solid #e10600;

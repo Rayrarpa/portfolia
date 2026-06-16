@@ -31,6 +31,7 @@ a {
   border-radius: 4px;
   font-weight: bold;
   border: 2px solid #e10600;
+    margin-bottom: 2rem;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -41,13 +42,7 @@ a {
 
 
 
-.card {
-  background-color: #161616;
-  border-left: 3px solid #e10600;
-  padding: 20px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-}
+
 
 .cinza {
   color: #8a8a8a;
